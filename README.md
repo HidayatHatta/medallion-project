@@ -62,9 +62,6 @@ flowchart LR
 
 Urutan task di Airflow: `ingest_bronze → clean_silver → quality_check → aggregate_gold`.
 
-<!-- Opsional: tambahkan diagram buatan sendiri di docs/architecture.png -->
-<!-- ![Arsitektur](docs/architecture.png) -->
-
 ---
 
 ## Tech stack
@@ -286,10 +283,8 @@ Isi dashboard:
 4. 10 zona tersibuk.
 5. Tabel kualitas data per bulan.
 
-<!-- Tambahkan screenshot:
 ![Dashboard](docs/img/dashboard.png)
 ![DAG Airflow](docs/img/airflow-dag.png)
--->
 
 ---
 
